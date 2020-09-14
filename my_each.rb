@@ -1,5 +1,5 @@
 def my_each(names)
-  array = ["alie,liz,sascha"]
+  array.each ["alie,liz,sascha"] |do|
     i = 0
     while i < array.length
     yield array[i]

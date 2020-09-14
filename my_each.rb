@@ -5,6 +5,7 @@ def my_each(names)
       while i < array.length
     yield array[i]
     i = i + 1
+    end
+    array
   end
-  array
 end

@@ -1,5 +1,6 @@
 def my_each(names)
-  array.each ["alie,liz,sascha"] |do|
+  array.each ["alie,liz,sascha"] do |name|
+    puts
     i = 0
     while i < array.length
     yield array[i]

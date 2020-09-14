@@ -1,6 +1,6 @@
 def my_each (array)
   array = ["Alie, Liz, Sascha"]
-  my_each. do |name|
+  array.each do |item |
     puts "names"
         i = 0
       while i < array.length

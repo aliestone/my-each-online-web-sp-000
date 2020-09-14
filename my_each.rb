@@ -1,6 +1,7 @@
-def my_each(names)
-  array.each ["alie,liz,sascha"] do |name|
-    puts name
+def my_each (array)
+  array = ["Alie, Liz, Sascha"]
+  my_each. do |name|
+    puts "names"
         i = 0
       while i < array.length
     yield array[i]

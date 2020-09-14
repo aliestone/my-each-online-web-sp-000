@@ -1,4 +1,4 @@
-def my_each(array)
+def my_each(names)
   array = ["Alie, "Liz", "Sascha"]
     i = 0
     while i < array.length
